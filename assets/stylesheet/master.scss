@@ -1,0 +1,57 @@
+@font-face {
+    font-family: play;
+    src: url(../font/PermanentMarker-Regular.ttf);
+}
+
+main {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #FAEBD7;
+    height: 100vh;
+    div>div {
+        background-color: #FAEBD7;
+        color: black;
+
+        h2 {
+            font-weight: bolder;
+            box-shadow: 0 2px 2px black;
+            background-color: #24242328;
+
+        }
+
+        
+    }
+}
+.date>div {
+    box-shadow: 2px 2px 10px black;
+    >div>button{
+            background-color: #7FFFD4;
+            box-shadow: 0 2px 2px black;
+            transition: 0.4s;
+        &:hover{
+            box-shadow: none;
+        }
+    }
+    >button{
+        background-color: #EFC200;
+        box-shadow: 0 2px 2px black;
+        transition: 0.4s;
+        &:hover{
+            box-shadow: none;
+        }
+    }
+}
+.date>button{
+    background-color: black;
+    color: white;
+    box-shadow: 0 2px 2px black;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+}
+#sub{
+    font-weight: bold;
+}
+h1,
+h3,
+strong,button {
+    font-family: play;
+}

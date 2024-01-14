@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>counter</title>
+    <link rel="stylesheet" href="assets/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/stylesheet/master.css">
+</head>
+
+<body>
+    <main class="text-capitalize  bg-dark">
+        <section class="container-fluid container-xxl ">
+            <div class="row justify-content-center">
+                <h1 class=" text-center p-5">simple counter</h1>
+                <div class="col-12 rounded-3 col-sm-11 col-md-9 col-lg-6 bg-secondary">
+                    <div class="row justify-content-center rounded-3 ">
+                        <h2 class="p-2 text-center ">age counter</h2>
+                        <div class="col-11">
+                            <div class="row justify-content-center date">
+                                <div class="col-8 col-sm py-2 my-2 my-sm-5 mx-2 rounded-3">
+                                    <h3 class="text-center my-3">day</h3>
+                                    <div class="d-flex justify-content-between">
+                                        <button class="col-3 py-1 rounded-circle" onclick="_day('+')">+</button>
+                                        <strong class="col text-center" id="bday">er</strong>
+                                        <button class="col-3 py-1 rounded-circle" onclick="_day('-')">-</button>
+                                    </div>
+                                    <button class="col-12 py-1 my-2 rounded-pill" onclick="_day()">reset</button>
+                                </div>
+                                <div class="col-8 col-sm py-2 my-2 my-sm-5 mx-2 rounded-3">
+                                    <h3 class="text-center my-3">month</h3>
+                                    <div class="d-flex justify-content-between">
+                                        <button class="col-3 py-1 rounded-circle" onclick="_day2('+')">+</button>
+                                        <strong class="col text-center " id="bmonth">er</strong>
+                                        <button class="col-3 py-1 rounded-circle" onclick="_day2('-')">-</button>
+                                    </div>
+                                    <button class="col-12 py-1 my-2 rounded-pill" onclick="_day2()">reset</button>
+                                </div>
+                                <div class="col-8 col-sm py-2 my-2 my-sm-5 mx-2 rounded-3">
+                                    <h3 class="text-center my-3">year</h3>
+                                    <div class="d-flex justify-content-between">
+                                        <button class="col-3 py-1 rounded-circle " onclick="_day3('+')">+</button>
+                                        <strong class="col text-center " id="byear">er</strong>
+                                        <button class="col-3 py-1  rounded-circle" onclick="_day3('-')">-</button>
+                                    </div>
+                                    <button class="col-12 py-1 my-2 rounded-pill" onclick="_day3()">reset</button>
+                                </div>
+                                <button class=" col-12 text-capitalize  py-2 mt-2 mb-5  rounded-3" onclick="submit()">submit</button>
+                                <p id="sub" class="pb-5"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="assets/javascript/master.js">
+        
+    </script>
+</body>
+
+</html>
